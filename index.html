@@ -45,6 +45,31 @@
 
 <iframe src="https://trinket.io/embed/python/90e6415dad" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+Drawing with turtle is pretty easy.  The idea is that the 'turtle' runs around in the 
+window, leaving a trail behind it.  You, he programmer, can tell it what direction and how far to go.
+
+Try this:
+
+my_turtle = turtle.Turtle() # this makes a new turtle called my_turtle
+my_turtle.forward(100)
+my_turtle.right(45)
+my_turtle.forward(200)
+my_turtle.left(90)
+my_turtle.forward(200)
+
+you can move the turtle without drawing if you first use this command
+
+my_turtle.penup()
+
+then, to start drawing again, use:
+
+my_turtle.pendown() 
+
+There are other commands that can change the color and the thickness of the line, make circles, etc.
+
+Complete documentation can be found here:
+
+docs.python.org/2/library/turtle.html
 
 <h3>Additional resources</h3>
 
