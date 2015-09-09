@@ -73,19 +73,31 @@ Python thinks of words as strings made up of characters.  They are defined with 
 <iframe src="https://trinket.io/embed/python/d6c3900d52" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <p>Notice that the spaces are considered characters, too</p>
-<p>There are lots of things you can do with strings.  You can add two strings together - try typing this in the Trinket</p>
+<p>If you contniue in Python, you will see that there are lots of things you can do with strings.  One feature we will use to make our hangman game, is indexing.
+<p>Each position in the string has an index, starting with zero.</p>
 
-<p><code>str1 = 'Hello'
-<p>str2 = ' ' 
-<p>str3 = 'Goodbye'
-<p>print str1
-<p>print str2
-<p>print str3
-<p>print str1 + str2 + str3</code>
+In the Trinket above, type 
 
-<p>And hit RUN</p>
+<code>
+print my_string[0] # this is the first character int he string
+print my_string[1:8] # this is a 'slice' of the string, from the second character ([1]) to just before but not including the eighth character
+print my_string[1:8:2] # this is a 'slice' of the string, as above, but taking every second character
+print my_string[-1] # negative indices start from the end, so -1 is the last character
+</code>
+
+<p>We can also add strings or pices of strings together.  Try this
+
+<code>
+new_string = my_string[:7] + ' not ' + my_string[8:]
+print new_string
+</code>
+
+
 
 <h1>Loops</h1>
 There are lots of ways we can tell computers what to do. For Loops are a common way of telling a computer to do something for each item in a list. In Python that will look like this:
 
 <iframe src="https://trinket.io/embed/python/6c9bbe0c42" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+Hit RUN and see what happens.
+
+<p>You can also use loops if you want to keep doing something until something else happens.  For this you can use a <code>while</code>  loop </p>
