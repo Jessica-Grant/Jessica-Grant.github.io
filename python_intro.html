@@ -54,18 +54,36 @@ Libraries are bits of code that someone else has written that we can use.  If yo
 searching for libraries that already do what you want to do!
 
 <p>We are going to want to pick a random number, and there is a library called random that we can use.  To use a library, you first have to import it.</p>
-Type:
+<p>Delete the code in the trinket above and then type:
 
 <p><code>import random</code></p>
 
-into the Trinket window above
+<p></p>into the Trinket window.
 
 Now we can use a function in the random library called <code>randrange</code>.  <code>randrange</code> takes a number as input, and returns a random number between zero and the number you have given it.
 
 Type:
-<code>print random.randrange(100)</code>
-in your Trinket, and hit run a few times.  What happens?
+<p><code>print random.randrange(100)</code>
 
+<p>in your Trinket, and hit run a few times.  What happens?
+
+<h1>Strings and Lists</h1>
+Python thinks of words as strings made up of characters.  They are defined with quotation marks, like these:
+
+<iframe src="https://trinket.io/embed/python/d6c3900d52" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+<p>Notice that the spaces are considered characters, too</p>
+<p>There are lots of things you can do with strings.  You can add two strings together - try typing this in the Trinket</p>
+
+<code><p>str1 = 'Hello'
+<p>str2 = ' ' 
+<p>str3 = 'Goodbye'
+<p>print str1
+<p>print str2
+<p>print str3
+<p>print str1 + str2 + str3</code>
+
+<p>And hit RUN</p>
 
 <h1>Loops</h1>
 There are lots of ways we can tell computers what to do. For Loops are a common way of telling a computer to do something for each item in a list. In Python that will look like this:
