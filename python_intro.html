@@ -109,22 +109,20 @@ There are lots of ways we can tell computers what to do. For Loops are a common 
 <iframe src="https://trinket.io/embed/python/6c9bbe0c42" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 Hit RUN and see what happens.
 
-<p>We can use loops to keep track of our hangman game - cut and paste the following code into the Trinket and see what happens.</p>
-<code>
-new_word = '' <br>
-my_pick = 'a' <br>
-for letter in 'my_hangman_word': <br>
-    if letter == my_pick: <br>
-        new_word += letter <br>
-    else: <br>
-        new_word += '_' <br>
-print new_word <br>
-</code>
+<p>We can use loops to keep track of our hangman game - run the code in this Trinket and see what happens.</p>
+
+<iframe src="https://trinket.io/embed/python/5d1595a5ba" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 
 <p>You can also use loops if you want to keep doing something until something else happens.  For this you can use a <code>while</code>  loop </p>
 
+<iframe src="https://trinket.io/embed/python/c6698d0b29" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+Here, as long as x is less than 15, the loop will keep printing x.  Once x equals 15, we exit the loop and print "Done!!"
 
 <h1>Lists</h1>
 <p>Lists are another way to store data.  They are stored inside square brackets, like this:
 <code>['this','is',1,'list']</code>
+
+We will use a list to keep track of the incorrect letters that have already been chosen.
 
