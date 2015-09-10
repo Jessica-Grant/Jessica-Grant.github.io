@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>jessica-grant.github.io</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>nerd summit Intro to Python!</h1>
+        <h2></h2>
+        <a href="https://github.com/Jessica-Grant" class="button"><small>Follow me on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+        
+        
+        
+CONTENT HERE
+
+
+        </section>
+
+        <aside id="sidebar">
+
+
+          <p>For more about me, see my <a href="http://pixelshrub.com/index.html"> professional</a> web page or my (somewhat outdated) <a href="http://www.science.smith.edu/departments/Biology/lkatz/people/JGrant.htm"> academic</a> web page.</p>
+          <p>and feel free to <a href= "mailto:jessica@pixelshrub.com">send email</a>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
